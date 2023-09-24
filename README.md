@@ -1,6 +1,25 @@
 # YoshiBot - Lego Super Mario
-**Description:** Repository to save code for YoshiBot, a proposed expansion to the Lego Super Mario interactivity using OpenAI's GPT 3.5 Turbo API
+Advait Ukidve - September 2023     
 
+**Description:** Repository to save code for YoshiBot, a proposed expansion to the Lego Super Mario interactivity using OpenAI's GPT 3.5 Turbo API.     
+**This Repository:**    
+- [LSM_Software_Prototype](./LSM_Software_Prototype.ipynb) contains the full code used in the software presentation. This runs with no prerequisites save installation of the relevant packages on the system (indicated in code at the top).
+- [LSM_Arduino_Prototype](./LSM_Arduino_Prototype.ipynb) contains the presentation version with limited functionality and requires hardware to run.
+- [This folder](./Python/) contains the same code prototypes in .py format to be run using the Python console. These contain the same functionality but without the interactivity.
+- [This folder](./LSM_Arduino_Prototype/) contains the Arduino code to be run on the Arduino.
+- [This]() is the presentation used for the Case Study Review Round 2 Interview scheduled Tuesday 26 September 2023 at 16:00 BST.
+
+## About the Project
+
+
+### How to Run
+- **Software Prototype:** Download the .ipynb file and run in Jupyter Notebook locally or on Colab OR download the .py file and run using Python console
+- **Hardware Prototype:** Download the Arduino files in this folder and upload them to the Arduino device (Built using Leonardo, but should work with most Arduino models). Download the .ipynb/.py file and run locally using Jupyter Notebook or Python Console. This cannot be run on Colab as it requires connection to the hardware. Use the following diagram (made using Fritzing) to wire up the various components:
+
+![Schematics](./Schematics_bb.png). 
+<sub> Full resolution version [here](./Schematics_bb.png) </sub>
+
+*Note:* Both the Python file and Arduino code assume a Windows system with the Arduino connected to COM3 at a baudrate of 9600. Make the appropriate changes if necessary.
 
 # Example Responses
 ## Shown in Software Prototype
@@ -40,3 +59,8 @@
 **Prompt:** *Narrate an adventure where Lego Mario, sitting on Yoshi's back, does the following in order: ### reach Peach's Castle, meet Luigi and Toad, get the Fire Mario Suit, defeat a koopa troopa with the Fire Mario suit, talk to Luigi ###. Use the past tense. Don't use the following words ### Lego, toy, set ###*     
     
 **Response:** Once upon a time, in a colorful land of blocks and bricks, Mario embarked on an exciting adventure atop Yoshi's back. Their journey began as they made their way towards the majestic Peach's Castle. With each hop and flutter, Yoshi carried Mario closer to their destination, his little legs propelling them forward with boundless energy. Finally, they reached Peach's Castle, where Luigi and Toad eagerly awaited their arrival. The familiar faces of Mario's trusted companions filled him with joy, and they greeted each other with warm smiles and friendly hugs. It was a reunion filled with laughter and excitement. In the castle courtyard, Luigi led Mario to a hidden room where the Fire Mario Suit awaited. As Mario adorned himself in the fiery attire, his confidence soared. With newfound powers, he felt invincible, ready to face any challenge that came their way. Their first test came in the form of a mischievous koopa troopa. With a burst of flames from his hands, Mario defeated the troublesome turtle-like creature. The koopa troopa scurried away, leaving behind a trail of defeated shells. After their victorious battle, Mario and Yoshi sought out Luigi for a little chat. They huddled together, discussing their next steps and sharing tales of their adventures thus far. Luigi expressed his admiration for Mario's bravery and thanked Yoshi for being such a reliable companion. With hearts full of determination and camaraderie, the trio continued their journey through the whimsical kingdom. They knew that as long as they stuck together, nothing could stand in their way. And so, with Yoshi leading the way, Mario rode atop his loyal steed, ready to face more challenges and rescue Princess Peach from the clutches of evil. Their adventure had only just begun, but with courage in their hearts and friendship by their side, there was no doubt that they would emerge triumphant!
+
+
+## Credits
+- Credit to **atomic14's command_line_chatgpt** project for providing me with a great technical jumping off point towards writing this code. You can find the public domain free-to-use code on their [Github](https://github.com/atomic14/command_line_chatgpt/tree/main) ([License](https://github.com/atomic14/command_line_chatgpt/blob/main/LICENSE.md)).    
+- Thanks to countless online videos and shopfronts, and especially [DuckBricks' video](https://www.youtube.com/watch?v=uCqOGbqJ1s8) and [Bricksets](https://brickset.com/sets/theme-Super-Mario), without whom I couldn't have analysed the Lego Super Mario Interactive Toy Set fully.
