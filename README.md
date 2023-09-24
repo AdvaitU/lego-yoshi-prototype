@@ -1,4 +1,4 @@
-# YoshiBot - Lego Super Mario
+# Lego Yoshi - Lego Super Mario Interactivity
 Advait Ukidve - September 2023     
 
 **Description:** Repository to save code for YoshiBot, a proposed expansion to the Lego Super Mario interactivity using OpenAI's GPT 3.5 Turbo API.     
