@@ -6,23 +6,23 @@ Advait Ukidve - September 2023
 - [LSM_Software_Prototype](./LSM_Software_Prototype.ipynb) contains the full code used in the software presentation. This runs with no prerequisites save installation of the relevant packages on the system (indicated in code at the top).
 - [LSM_Arduino_Prototype](./LSM_Arduino_Prototype.ipynb) contains the presentation version with limited functionality and requires hardware to run.
 - [This folder](./Python/) contains the same code prototypes in .py format to be run using the Python console. These contain the same functionality but without the interactivity.
-- [This folder](./LSM_Arduino_Prototype/) contains the Arduino code to be run on the Arduino.
+- [This folder](./LSM_Lego_Yoshi_Arduino/) contains the Arduino code to be run on the Arduino.
 - [This]() is the presentation used for the Case Study Review Round 2 Interview scheduled Tuesday 26 September 2023 at 16:00 BST.
 
 ## About the Project
 
 
-### How to Run
-- **Software Prototype:** Download the .ipynb file and run in Jupyter Notebook locally or on Colab OR download the .py file and run using Python console
-- **Hardware Prototype:** Download the Arduino files in this folder and upload them to the Arduino device (Built using Leonardo, but should work with most Arduino models). Download the .ipynb/.py file and run locally using Jupyter Notebook or Python Console. This cannot be run on Colab as it requires connection to the hardware. Use the following diagram (made using Fritzing) to wire up the various components:
+## How to Run
+- **Software Prototype:** Download the .ipynb file and run in [Jupyter Notebook](https://jupyter.org/) locally or on [Google Colab](https://colab.google/) OR download the .py file and run using Python console
+- **Hardware Prototype:** Download the Arduino files in this folder and upload them to the Arduino device (Built using [Leonardo](https://docs.arduino.cc/hardware/leonardo), but should work with most Arduino models). Download the .ipynb/.py file and run locally using Jupyter Notebook or Python Console. This cannot be run on Colab as it requires connection to the hardware. Use the following diagram (made using [Fritzing](https://fritzing.org/)) to wire up the various components:
 
 ![Schematics](./Schematics_bb.png). 
 <sub> Full resolution version [here](./Schematics_bb.png) </sub>
 
-*Note:* Both the Python file and Arduino code assume a Windows system with the Arduino connected to COM3 at a baudrate of 9600. Make the appropriate changes if necessary.
+*Note: Both the Python file and Arduino code assume a Windows system with the Arduino connected to COM3 at a baudrate of 9600. Make the appropriate changes if necessary.*
 
 # Example Responses
-## Shown in Software Prototype
+## Shown in Arduino Prototype
 
 #### 1 - Setting the Scene   
 **Prompt:** *Describe a scene in Peach's Castle with Luigi and Toad before an adventure that will involve Donkey Kong, koopa troopas, Bowser Jr. and a pool of lava. Don't describe the actual adventure. Use upto 300 words.*    
@@ -59,6 +59,8 @@ Advait Ukidve - September 2023
 **Prompt:** *Narrate an adventure where Lego Mario, sitting on Yoshi's back, does the following in order: ### reach Peach's Castle, meet Luigi and Toad, get the Fire Mario Suit, defeat a koopa troopa with the Fire Mario suit, talk to Luigi ###. Use the past tense. Don't use the following words ### Lego, toy, set ###*     
     
 **Response:** Once upon a time, in a colorful land of blocks and bricks, Mario embarked on an exciting adventure atop Yoshi's back. Their journey began as they made their way towards the majestic Peach's Castle. With each hop and flutter, Yoshi carried Mario closer to their destination, his little legs propelling them forward with boundless energy. Finally, they reached Peach's Castle, where Luigi and Toad eagerly awaited their arrival. The familiar faces of Mario's trusted companions filled him with joy, and they greeted each other with warm smiles and friendly hugs. It was a reunion filled with laughter and excitement. In the castle courtyard, Luigi led Mario to a hidden room where the Fire Mario Suit awaited. As Mario adorned himself in the fiery attire, his confidence soared. With newfound powers, he felt invincible, ready to face any challenge that came their way. Their first test came in the form of a mischievous koopa troopa. With a burst of flames from his hands, Mario defeated the troublesome turtle-like creature. The koopa troopa scurried away, leaving behind a trail of defeated shells. After their victorious battle, Mario and Yoshi sought out Luigi for a little chat. They huddled together, discussing their next steps and sharing tales of their adventures thus far. Luigi expressed his admiration for Mario's bravery and thanked Yoshi for being such a reliable companion. With hearts full of determination and camaraderie, the trio continued their journey through the whimsical kingdom. They knew that as long as they stuck together, nothing could stand in their way. And so, with Yoshi leading the way, Mario rode atop his loyal steed, ready to face more challenges and rescue Princess Peach from the clutches of evil. Their adventure had only just begun, but with courage in their hearts and friendship by their side, there was no doubt that they would emerge triumphant!
+
+## Examples from Software Prototype
 
 
 ## Credits
