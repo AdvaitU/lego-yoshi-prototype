@@ -9,6 +9,7 @@ Advait Ukidve - September 2023
 - [This folder](./Python/) contains the same code prototypes in .py format to be run using the Python console. These contain the same functionality but without the interactivity.
 - [This folder](./LSM_Lego_Yoshi_Arduino/) contains the Arduino code to be run on the Arduino.
 - [This](./Presentation/LSM_Presentation.pdf) is the presentation used for the Case Study Review Round 2 Interview scheduled Tuesday 26 September 2023 at 16:00 BST.
+- [Refer here](./Prototype_Prompt_and_Example_Responses.pdf) for a formatted legible document containing the prompts used in the prototype and example responses from both versions.
 
 ## Presentation
 ![Where does the new product fit in?](./Presentation/LSMP2.png)     
