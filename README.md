@@ -7,11 +7,28 @@ Advait Ukidve - September 2023
 - [LSM_Arduino_Prototype](./LSM_Arduino_Prototype.ipynb) contains the presentation version with limited functionality and requires hardware to run.
 - [This folder](./Python/) contains the same code prototypes in .py format to be run using the Python console. These contain the same functionality but without the interactivity.
 - [This folder](./LSM_Lego_Yoshi_Arduino/) contains the Arduino code to be run on the Arduino.
-- [This]() is the presentation used for the Case Study Review Round 2 Interview scheduled Tuesday 26 September 2023 at 16:00 BST.
+- [This](./Presentation/LSM_Presentation.pdf) is the presentation used for the Case Study Review Round 2 Interview scheduled Tuesday 26 September 2023 at 16:00 BST.
 
-## About the Project
-
-
+## Presentation
+![Where does the new product fit in?](./Presentation/LSMP2.png)     
+<sub> Where does the new product fit in? What does the current interactivity experience offer? What is the opportunity? What are the predicted pitfalls?     
+     
+![Source of inspiration](./Presentation/LSMP3.png)     
+<sub> Before I get into the concept: My source of inpiration lies in my childhood experience playing 'Duke Nukem' and 'Halo: Combat Evolved' without my PC    
+      
+![The concept - Lego Yoshi](./Presentation/LSMP4.png)     
+<sub> The concept - Lego Yoshi - The perfect (AI) Sidekick to Lego Mario     
+      
+![Lego Yoshi - Use Cases](./Presentation/LSMP5.png)     
+<sub> Lego Yoshi - Use Cases - What could Lego Yoshi add to the experience? In what way?    
+      
+![Techincal Diagram](./Presentation/LSMP6.png)     
+<sub> Technical Diagram - How does the prototype work?       
+      
+![Next Level](./Presentation/LSMP7.png)     
+<sub> How would I take the prototype to the next level?        
+      
+   
 ## How to Run
 - **Software Prototype:** Download the .ipynb file and run in [Jupyter Notebook](https://jupyter.org/) locally or on [Google Colab](https://colab.google/) OR download the .py file and run using Python console
 - **Hardware Prototype:** Download the Arduino files in this folder and upload them to the Arduino device (Built using [Leonardo](https://docs.arduino.cc/hardware/leonardo), but should work with most Arduino models). Download the .ipynb/.py file and run locally using Jupyter Notebook or Python Console. This cannot be run on Colab as it requires connection to the hardware. Use the following diagram (made using [Fritzing](https://fritzing.org/)) to wire up the various components:
