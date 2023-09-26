@@ -1,8 +1,9 @@
 # Lego Yoshi - Lego Super Mario Interactivity
 Advait Ukidve - September 2023     
 
-**Description:** Repository to save code for YoshiBot, a proposed expansion to the Lego Super Mario interactivity using OpenAI's GPT 3.5 Turbo API.     
-**This Repository:**    
+**Description:** Repository to save code for YoshiBot, a proposed expansion to the Lego Super Mario interactivity using OpenAI's GPT 3.5 Turbo API.    
+    
+## This Repository:   
 - [LSM_Software_Prototype](./LSM_Software_Prototype.ipynb) contains the full code used in the software presentation. This runs with no prerequisites save installation of the relevant packages on the system (indicated in code at the top).
 - [LSM_Arduino_Prototype](./LSM_Arduino_Prototype.ipynb) contains the presentation version with limited functionality and requires hardware to run.
 - [This folder](./Python/) contains the same code prototypes in .py format to be run using the Python console. These contain the same functionality but without the interactivity.
