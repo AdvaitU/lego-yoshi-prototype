@@ -38,7 +38,7 @@ API Key: Replace <your API Key here> with your API key. To find it out, register
 
 # Configuring OpenAI ----------------------------------------------------------------------------
 
-openai.api_key = #<your API Key here>  # My OpenAI API key
+openai.api_key = "<your API Key here>"  # My OpenAI API key
 INSTRUCTIONS = """Answer and react as Yoshi from the Super Mario universe as if speaking to a 9 year old. Be optimistic, cheerful, and helpful. Use a lot of onomatopoeia and alliterations. Respond in 300 words unless the prompt contains a word count. Only use salutations in the first response.""" # Special instructions for the API
 TEMPERATURE = 0.7           # Randomness/Creativity in the answers
 TOP_P = 0.9                 # Similar
